@@ -11,9 +11,9 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Learn{" "}
-          <Link href="https://nextjs.org">
-            <a>Next.js!</a>
+          Read{" "}
+          <Link href="/posts/first-post">
+            <a>this page!</a>
           </Link>
         </h1>
 
