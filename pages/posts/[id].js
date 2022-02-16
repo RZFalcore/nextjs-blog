@@ -3,6 +3,8 @@ import Date from "../../components/date";
 import Layout from "../../components/layout";
 import { getAllPostsIds, getPostData } from "../../lib/posts";
 import utilStyles from "../../styles/utils.module.css";
+
+
 export async function getStaticPaths() {
   const paths = getAllPostsIds();
   return { paths, fallback: false };
